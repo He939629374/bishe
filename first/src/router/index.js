@@ -42,7 +42,6 @@ export default new Router({
               path: '/mymsg',
               name: 'mymsg',
               component: mymsg,
-              meta: { title: 'Example' },
             },
             {
               path: '/jilu',

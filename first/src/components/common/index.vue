@@ -53,7 +53,7 @@
               <el-submenu index="2">
                   <template slot="title"><i class="el-icon-menu"></i>个人中心</template>
                 <el-menu-item-group>
-                    <el-menu-item index="/mymsg" ></el-menu-item>
+                    <el-menu-item index="/mymsg" >个人信息</el-menu-item>
                     <el-menu-item index="/setmymsg">账号设置</el-menu-item>
                     <el-menu-item index="/setmima">安全信息</el-menu-item>
                 </el-menu-item-group>
