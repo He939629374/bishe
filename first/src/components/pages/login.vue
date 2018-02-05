@@ -2,6 +2,7 @@
   <div class="login-box" id="app" >  
     <el-form :model="ruleForm2"  :rules="rules2" ref="ruleForm2" >
       <el-row>
+        <h3 class="title">创文评价管理</h3>
         <el-col :span="10">
           <el-form-item label="" prop="name"> 
             <el-input id="name"  v-model="ruleForm2.name" placeholder="请输入帐号"> 
@@ -94,6 +95,9 @@
 }
 </script>
 <style>  
+body{
+  background: #2d3a4b;
+}
 .el-form-item.is-success .el-input__inner{
       border-color:#dcdfe6
 }
